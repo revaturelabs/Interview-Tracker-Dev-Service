@@ -12,7 +12,11 @@ spring:
     
 zuul:
   routes:
+<<<<<<< HEAD
     User-Service:
+=======
+    user-service:
+>>>>>>> william
       path: /user/**
       service-id: userservice
       strip-prefix: false
