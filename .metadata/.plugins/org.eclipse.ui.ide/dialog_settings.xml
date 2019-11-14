@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+<<<<<<< HEAD
 		<item value="C:\Users\Graduate\Desktop\Project3\UserService\Interview-Tracker-Dev-Service\User-Service"/>
 		<item value="C:\Users\Graduate\Desktop\Project3\UserService\Interview-Tracker-Dev-Service\ServiceRegistery"/>
 		<item value="C:\Users\Graduate\Desktop\Project3\UserService\Interview-Tracker-Dev-Service\APIGateway"/>
@@ -125,5 +126,18 @@
 	<section name="ChooseWorkspaceDialogSettings">
 		<item value="429" key="DIALOG_X_ORIGIN"/>
 		<item value="212" key="DIALOG_Y_ORIGIN"/>
+=======
+		<item value="C:\Users\hello\Desktop\git_repo\P3 DevService\Interview-Tracker-Dev-Service\User-Service"/>
+		<item value="C:\Users\hello\Desktop\git_repo\P3 DevService\Interview-Tracker-Dev-Service\UserService"/>
+		<item value="C:\Users\hello\Desktop\git_repo\P3 DevService\Interview-Tracker-Dev-Service\ServiceRegistery"/>
+		<item value="C:\Users\hello\Desktop\git_repo\P3 DevService\Interview-Tracker-Dev-Service\APIGateway"/>
+	</list>
+	<section name="CleanDialogSettings">
+		<item value="828" key="DIALOG_WIDTH"/>
+		<item value="true" key="TOGGLE_SELECTED"/>
+		<item value="480" key="DIALOG_HEIGHT"/>
+		<item value="546" key="DIALOG_X_ORIGIN"/>
+		<item value="190" key="DIALOG_Y_ORIGIN"/>
+>>>>>>> 1513d8c4c23fc595c81a1fa542bc18d60d024f57
 	</section>
 </section>

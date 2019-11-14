@@ -4,10 +4,13 @@
 	</section>
 	<section name="org.eclipse.m2e.core.pom.overview">
 	</section>
+<<<<<<< HEAD
 	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
 		<item value="480" key="width"/>
 		<item value="491" key="x"/>
 		<item value="37" key="y"/>
 		<item value="531" key="height"/>
 	</section>
+=======
+>>>>>>> 1513d8c4c23fc595c81a1fa542bc18d60d024f57
 </section>
