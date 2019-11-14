@@ -6439,3 +6439,5 @@ java.io.FileNotFoundException: C:\Users\Graduate\Desktop\Project3\UserService\In
 2019-11-14 13:57:13,815 [Worker-112: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-11-14 13:57:13,816 [Worker-112: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2019-11-14 13:57:13,837 [Worker-112: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-14 13:57:13,883 [Worker-112: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-14 13:57:13,903 [Worker-112: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Graduate\Desktop\Project3\UserService\Interview-Tracker-Dev-Service\APIGateway\src\test\resources
