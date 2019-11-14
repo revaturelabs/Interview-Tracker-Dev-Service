@@ -3,11 +3,13 @@ package com.example.demo;
 import java.util.List;
 
 import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.http.MediaType;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
 import feign.RequestLine;
 
-@FeignClient("users")
+@FeignClient(name ="users", url = "https://localhost:0")
 public interface UserClient {
 
 //	 	@RequestLine("GET /{isbn}")
@@ -39,4 +41,6 @@ public interface UserClient {
 	@RequestLine("POST /users/{id}")
 	User update(@PathVariable("id") int id, User user);
 	
+	 @GetMapping(value="/login",consumes=MediaType.APPLICATION_JSON_VALUE)
+	    List<User> getUsers();
 }
