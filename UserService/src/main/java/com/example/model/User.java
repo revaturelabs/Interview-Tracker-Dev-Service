@@ -1,7 +1,20 @@
+<<<<<<< HEAD:UserService/src/main/java/com/example/demo/User.java
 	package com.example.demo;
+=======
+package com.example.model;
+>>>>>>> LoginFeature:UserService/src/main/java/com/example/model/User.java
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Table(name="users")
+@Entity
 public class User {
 
+	@Id
+	@GeneratedValue
 	private int id;
 	private String username;
 	private String password;

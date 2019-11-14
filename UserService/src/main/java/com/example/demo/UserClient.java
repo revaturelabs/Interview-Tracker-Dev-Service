@@ -3,14 +3,30 @@ package com.example.demo;
 import java.util.List;
 
 import org.springframework.cloud.openfeign.FeignClient;
+<<<<<<< HEAD
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.GetMapping;
+=======
+import org.springframework.data.jpa.repository.JpaRepository;
+>>>>>>> LoginFeature
 import org.springframework.web.bind.annotation.PathVariable;
+
+import com.example.model.User;
 
 import feign.RequestLine;
 
+<<<<<<< HEAD
 @FeignClient(name ="users", url = "https://localhost:8080")
+=======
+<<<<<<< HEAD
+//@FeignClient("users")
+@FeignClient(name="service",configuration = FeignClientConfiguration.class)
+>>>>>>> LoginFeature
 public interface UserClient {
+=======
+@FeignClient("users")
+public interface UserClient extends JpaRepository<User, Integer> {
+>>>>>>> 0c36bb60e15e3fa1da7ec390dc63f92d309e9041
 
 //	 	@RequestLine("GET /{isbn}")
 //	    BookResource findByIsbn(@Param("isbn") String isbn);
@@ -33,7 +49,8 @@ public interface UserClient {
 	
 //	User findById();
 	@RequestLine("GET /users/{id}")
-	User getUser(@PathVariable("id") int id);
+	User findById(@PathVariable("id") int id);
+//	User getUser(@PathVariable("id") int id);
 	
 	@RequestLine("POST")
 	void create(User user);
