@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import feign.RequestLine;
 
-@FeignClient(name ="users", url = "https://localhost:0")
+@FeignClient(name ="users", url = "https://localhost:8080")
 public interface UserClient {
 
 //	 	@RequestLine("GET /{isbn}")
