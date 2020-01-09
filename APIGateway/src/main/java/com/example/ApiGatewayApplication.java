@@ -24,19 +24,19 @@ public class ApiGatewayApplication {
 		SpringApplication.run(ApiGatewayApplication.class, args);
 	}
 	
-	@Bean
-	public CorsFilter corsFilter() {
-	    UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
-	    CorsConfiguration config = new CorsConfiguration();
-	    config.setAllowCredentials(true);
-	    config.addAllowedOrigin("*");
-	    config.addAllowedHeader("*");
-	    config.addAllowedMethod("*");
-	    source.registerCorsConfiguration("/**", config);
-	    
-	    System.out.println("got to bean cors filter");
-	    
-	    return new CorsFilter(source);
-	    
-	}	
+//	@Bean
+//	public CorsFilter corsFilter() {
+//	    UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
+//	    CorsConfiguration config = new CorsConfiguration();
+//	    config.setAllowCredentials(true);
+//	    config.addAllowedOrigin("*");
+//	    config.addAllowedHeader("*");
+//	    config.addAllowedMethod("*");
+//	    source.registerCorsConfiguration("/**", config);
+//	    
+//	    System.out.println("got to bean cors filter");
+//	    
+//	    return new CorsFilter(source);
+//	    
+//	}	
 }
